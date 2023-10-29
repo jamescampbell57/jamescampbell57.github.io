@@ -239,7 +239,7 @@ main {
     background-color: rgba(0, 0, 0, 0.7);  /* Semi-transparent background */
     color: white;  /* White text */
     padding: 30px;  /* Padding */
-    width: 80%;  /* Increase blurb width if necessary */
+    width: 60%;  /* Blurb width */
     text-align: center;  /* Center-aligned text */
     position: absolute;  /* Absolute positioning */
     top: 50%;  /* Centered vertically */
@@ -250,24 +250,14 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
+  
+/* New Styles */
 .blurb-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.left-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.prominent-nav {
-    font-size: 1.5em;
-    margin: 20px 0;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .cover-fade {
@@ -424,40 +414,6 @@ footer {
     font-family: 'Latin Modern Roman Bold', serif;
   }
 
-  nav {
-    background-color: rgba(0, 0, 0, 0); /* Remove background color to blend with cover blurb */
-    text-align: center;
-    margin: 15px 0;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    margin-right: 10px;
-  }
-  
-  nav a {
-    color: white;
-    font-family: 'Latin Modern Roman', serif;
-    text-decoration: none;
-  }
-  
-  .prominent-nav {
-    font-size: 1.5em;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .prominent-nav ul {
-    list-style: none;
-    text-align: center;
-  }
-  
-  .prominent-nav ul li {
-    margin: 5px 0;
-  }
-  
+ 
+
+
