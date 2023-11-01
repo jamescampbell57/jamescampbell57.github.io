@@ -309,10 +309,10 @@ margin-right: 8px;  /* Space between the icon and text */
   
 /* Styles for the headshot */
 .headshot {
-width: 150px;  /* Width of the image */
+width: 250px;  /* Width of the image */
 height: auto;  /* Maintain aspect ratio */
 border-radius: 50%;  /* Circular image */
-margin-bottom: 20px;  /* Space below the image */
+margin-bottom: 0px;  /* Space below the image */
 }
   
 
@@ -461,3 +461,13 @@ footer {
     margin: 5px 0;
   }
   
+
+  /* Cool Section Headers */
+h2 {
+  font-family: 'Courier New', monospace;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px #aaa;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
