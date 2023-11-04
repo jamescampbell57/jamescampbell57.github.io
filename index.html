@@ -5,6 +5,7 @@
   <title>James Campbell</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -16,7 +17,7 @@
                 <!-- About Section -->
                 <div class="about-section">
                     <h2>James Campbell</h2>
-                    <p>I am an ambitious undergrad at Cornell interested in interpretability, honesty, and alignment of LLM's.<br/><br/>My works include "Representation Engineering" and "Localizing Lying in Llama".</p>
+                    <p>I am interested in interpretability, honesty, and alignment of LLM's.<br/><br/>My notable papers include <i>Representation Engineering</i> and <i>Localizing Lying in Llama</i>.</p>
                 </div>
                 <!-- Navigation -->
                 <nav class="prominent-nav">
@@ -51,10 +52,12 @@
   <main class="content-container">
 
 
-    <section class="section" id="about">
-      <h2>About</h2>
-      <p>Undergrad at Cornell University focusing on <span class="tooltip">representation engineering<span class="tooltiptext">This is a field focused on how to effectively represent data.</span></span> and mechanistic interpretability in LLMs.</p>
-    </section>
+<section class="section section-about" id="about">
+    <h2>About</h2>
+    <div class="section-about">
+    <p>I am an undergrad at Cornell and will be graduating in December of 2023. This website showcases my publications, research, and writing. I am interested in interpretability, honesty, and alignment of LLM's. I am a primary contributor to the papers ``Representation Engineering'' and ``Localizing Lying in Llama''. In the past, I have also done some interesting work to understand semantic representations in the brain and LLM robustness. </p>
+    </div>
+</section>
 
 
 
@@ -104,15 +107,16 @@
     
 <section class="section section-research" id="projects">
     <h2>Projects</h2>
-    <h3>Ongoing Research</h3>
+    <h4>Ongoing Research</h4>
     <div class="publication-card">
         <div class="pub-info">
             <h3 class="publication-title">Representation Engineering in Large Multi-Modal Models</h3>
             <p class="publication-abstract">I'm currently working on a project exploring the application of RepE to vision-language models, such as Llava.</p>
         </div>
     </div>
-    <h3>Past Research</h3>
+    <h4>Past Research</h4>
     <div class="publication-card">
+        <img src="./images/symmetry_website.png" alt="Image">
         <div class="pub-info">
             <h3 class="publication-title">Derivation of a Bound on the Weights of a Neural Network under Nesterov's Accelerated Gradient Flow</h3>
             <p class="publication-abstract">I derived this bound in summer of 2021 when I did an REU at Johns Hopkins.</p>
@@ -120,16 +124,49 @@
         </div>
     </div>
     <div class="publication-card">
+        <img src="./images/bair_website.png" alt="Image">
         <div class="pub-info">
             <h3 class="publication-title">Neural Network Linearization for Out-of-Distribution Robustness</h3>
             <p class="publication-abstract">Poster from REU at UC Berkeley</p>
             <a class="publication-link" href="pdfs/SUPERB poster.pdf" target="_blank">PDF</a>
         </div>
     </div>
+    <div class="publication-card">
+        <img src="./images/cluster_website.png" alt="Image">
+        <div class="pub-info">
+            <h3 class="publication-title">Data-driven clustering of neural responses to a large set of natural images</h3>
+            <p class="publication-abstract">Clustering work done in the Computational Connectomics Lab at Cornell. Presented as an abstract at OHBM.</p>
+            <a class="publication-link" href="pdfs/OHBM_2022_Image_response_clustering.pdf" target="_blank">Abtract</a> | 
+            <a class="publication-link" href="pdfs/OHBM_poster.pdf" target="_blank">Poster</a>
+        </div>
+    </div>
+    <div class="publication-card">
+        <img src="./images/compositionality_website.png" alt="Image">
+        <div class="pub-info">
+            <h3 class="publication-title">Exploring Additive Compositionality in the Brain</h3>
+            <p class="publication-abstract">I conducted experiments attempting to understand the extent to which semantic representations in the brain exhibit additive compositionality (i.e. does representation(concept_A) + representation(concept_B) = representation(concept_A+concept_B) ).</p>
+            <a class="publication-link" href="pdfs/Additive Compositionality Presentation.pptx" target="_blank">Slides</a> | 
+            <a class="publication-link" href="https://github.com/jamescampbell57/brain-representations" target="_blank">Code</a>
+        </div>
+    </div>
+    <div class="publication-card">
+        <img src="./images/kaggle_website.png" alt="Image">
+        <div class="pub-info">
+            <h3 class="publication-title">Cornell Machine Learning Kaggle Competition</h3>
+            <p class="publication-abstract">I came in first out of 155 participants in a Kaggle competition hosted by Cornell's big machine learning class.</p>
+            <a class="publication-link" href="https://www.kaggle.com/competitions/cs-4780-covid-case-hunters/leaderboard" target="_blank">Kaggle</a> | 
+            <a class="publication-link" href="https://github.com/jamescampbell57/cornell-ml-kaggle-winner" target="_blank">Code</a>
+        </div>
+    </div>
+    <div class="publication-card">
+        <img src="./images/cereberto_website.png" alt="Image">
+        <div class="pub-info">
+            <h3 class="publication-title">CereBERTo: Improving Distributional Robustness with Brain-Like Language Representations</h3>
+            <p class="publication-abstract">Improving the out-of-distribution robustness of BERT and GPT-2 by pretraining them to predict brain fMRI data.</p>
+            <a class="publication-link" href="https://github.com/jamescampbell57/NLP-brain-biased-robustness" target="_blank">Code</a>
+        </div>
+    </div>
 
-    <h3>OHBM poster/compositionality presentation</h3>
-    <h3>CereBERTO</h3>
-    <h3>Kaggle notebook?</h3>
 </section>
 
 <section class="section section-research" id="blog">

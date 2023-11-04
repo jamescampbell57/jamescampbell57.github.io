@@ -56,6 +56,7 @@ header {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    color:#FFFFFF
 }
 
 /* Cover Section */
@@ -149,7 +150,7 @@ main {
 /* Generic Section Style */
 .section {
     padding: 2rem 0;
-    background-color: #f9f9f9;  
+    /* background-color: #f9f9f9;   */
     max-width: 800px;  /* Limit the width */
     margin: auto;  /* Center the section */
 }
@@ -186,12 +187,7 @@ main {
 
 /* Highlighting Research Section */
 .section-research {
-    background-color: #e6f7ff;  /* A light blue background to highlight the research section */
-}
-
-/* Highlighting Awards and Achievements */
-.section-awards {
-    background-color: #ffebcc;  /* A light orange background for achievements */
+    background-color: #ffffff;  /* A light blue background to highlight the research section */
 }
 
 /* Adding a touch of interactivity */
@@ -236,7 +232,7 @@ main {
 
 /* Styles for the middle blurb */
 .cover-blurb {
-    background-color: rgba(0, 0, 0, 0.7);  /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.75);  /* Semi-transparent background */
     color: white;  /* White text */
     padding: 30px;  /* Padding */
     width: 80%;  /* Increase blurb width if necessary */
@@ -256,6 +252,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Latin Modern Roman", serif;
+    font-size: 1.3em;
 }
 
 .left-section {
@@ -282,6 +280,18 @@ main {
 
 .about-section {
 flex: 70%;  /* Occupy 70% of the parent width */
+font-family: "Latin Modern Roman", serif;
+font-weight:400;
+/* background-color: #ffffff */
+}
+
+.section-about {
+  font-family: "Latin Modern Roman", serif;
+  font-weight:400;
+}
+
+.publication-section {
+  background-color: #ffffff
 }
 
 .headshot-section {
@@ -328,56 +338,7 @@ footer {
     width: 100%;
 }
 
-  /* Define Latin Modern Roman Fonts */
-/* ...your previous @font-face definitions... */
-/*
-.publication-card {
-    display: flex;
-    margin-bottom: 30px;
-    width: 100%;
-  }
-  
-  .publication-card img {
-    width: 150px;
-    height: auto;
-    margin-right: 20px;
-  }
-  
-  .pub-info {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .publication-title {
-    font-family: 'Latin Modern Roman Bold', serif;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  .publication-authors,
-  .publication-venue {
-    font-family: 'Latin Modern Roman', serif;
-    align-self: flex-start;
-    margin-bottom: 10px;
-  }
-  
-  .publication-authors strong {
-    font-family: 'Latin Modern Roman Bold', serif;
-  }
-  
-  .publication-abstract {
-    font-family: 'Latin Modern Roman', serif;
-    margin-bottom: 10px;
-    line-height: 1.4;
-  }
-  
-  .publication-link {
-    font-family: 'Latin Modern Roman', serif;
-    color: blue;
-    text-decoration: underline;
-  }
-*/
+
 
 .publication-card {
     display: flex;
@@ -463,11 +424,45 @@ footer {
   
 
   /* Cool Section Headers */
-h2 {
+
+/* h2 {
+    font-family: 'Courier New', monospace;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #aaa;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  } */
+/* .section h2 {
   font-family: 'Courier New', monospace;
   font-size: 2.5em;
   text-shadow: 2px 2px 4px #aaa;
   margin-bottom: 10px;
   line-height: 1.2;
+} */
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 200; /* or 400 for regular weight */
+  font-size: 2.5em; /* or the size that fits your design */
+  /* text-shadow: 2px 2px 4px #aaa; optional styling */
+  margin-bottom: 16px;
+  line-height: 1.2;
 }
 
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 200; /* or 400 for regular weight */
+  font-size: 2.5em; /* or the size that fits your design */
+  /* text-shadow: 2px 2px 4px #aaa; optional styling */
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+
+.section h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.7em;
+  font-weight: 200;
+  /* text-shadow: 2px 2px 4px #aaa; */
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
