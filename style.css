@@ -232,7 +232,7 @@ main {
 
 /* Styles for the middle blurb */
 .cover-blurb {
-    background-color: rgba(0, 0, 0, 0.75);  /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.9);  /* Semi-transparent background */
     color: white;  /* White text */
     padding: 30px;  /* Padding */
     width: 80%;  /* Increase blurb width if necessary */
@@ -283,11 +283,6 @@ flex: 70%;  /* Occupy 70% of the parent width */
 font-family: "Latin Modern Roman", serif;
 font-weight:400;
 /* background-color: #ffffff */
-}
-
-.section-about {
-  font-family: "Latin Modern Roman", serif;
-  font-weight:400;
 }
 
 .publication-section {
@@ -444,7 +439,7 @@ h2 {
   font-weight: 200; /* or 400 for regular weight */
   font-size: 2.5em; /* or the size that fits your design */
   /* text-shadow: 2px 2px 4px #aaa; optional styling */
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   line-height: 1.2;
 }
 
@@ -465,4 +460,10 @@ h2 {
   /* text-shadow: 2px 2px 4px #aaa; */
   margin-bottom: 10px;
   line-height: 1.2;
+}
+
+.special-about {
+  font-family:'Latin Modern Roman', serif;
+  font-size: 1.5em;
+  font-weight: 200;
 }
