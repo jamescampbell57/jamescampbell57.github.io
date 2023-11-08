@@ -316,7 +316,7 @@ margin-right: 8px;  /* Space between the icon and text */
 .headshot {
 width: 250px;  /* Width of the image */
 height: auto;  /* Maintain aspect ratio */
-border-radius: 50%;  /* Circular image */
+/* border-radius: 50%;  Circular image */
 margin-bottom: 0px;  /* Space below the image */
 }
   
