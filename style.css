@@ -292,6 +292,7 @@ font-weight:400;
 .headshot-section {
 flex: 30%;  /* Occupy 30% of the parent width */
 text-align: right;  /* Align the headshot to the right */
+margin-left: 20px;  /* Adjust this value as needed to move the image further to the right */
 }
 
 .contact-section {
@@ -314,9 +315,9 @@ margin-right: 8px;  /* Space between the icon and text */
   
 /* Styles for the headshot */
 .headshot {
-width: 250px;  /* Width of the image */
+width: 310px;  /* Width of the image */
 height: auto;  /* Maintain aspect ratio */
-/* border-radius: 50%;  Circular image */
+border-radius: 2%;  /*Circular image */
 margin-bottom: 0px;  /* Space below the image */
 }
   
