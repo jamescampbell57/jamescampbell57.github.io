@@ -381,6 +381,10 @@ footer {
     font-family: 'Latin Modern Roman Bold', serif;
   }
 
+  .publication-link strong {
+    font-family: 'Latin Modern Roman', serif;
+  }
+
   nav {
     background-color: rgba(0, 0, 0, 0); /* Remove background color to blend with cover blurb */
     text-align: center;
