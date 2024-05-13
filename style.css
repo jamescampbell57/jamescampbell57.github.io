@@ -280,8 +280,9 @@ main {
 
 .about-section {
 flex: 70%;  /* Occupy 70% of the parent width */
-font-family: "Latin Modern Roman", serif;
-font-weight:400;
+/*font-family: "Latin Modern Roman", serif; */
+font-family:monospace;
+font-weight: 400;
 /* background-color: #ffffff */
 }
 
